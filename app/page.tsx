@@ -43,6 +43,7 @@ export default function Home() {
     setFetchingUsers(true);
     setError(null);
     try {
+      console.log(process.env.NEXT_PUBLIC_BASE_URL);
       const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/users`);
       if (!res.ok) throw new Error("Failed to fetch users");
       const data: User[] = await res.json();
