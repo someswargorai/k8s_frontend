@@ -21,6 +21,6 @@ spec:
             cpu: "500m"
         envFrom:
           - secretRef:
-              name: fk8s_frontend
+              name: fk8s-frontend
         ports:
         - containerPort: 3000
