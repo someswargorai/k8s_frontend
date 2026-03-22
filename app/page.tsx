@@ -85,7 +85,7 @@ export default function Home() {
             <div className="flex items-center gap-2 mb-4">
               <span className="w-1.5 h-1.5 rounded-full bg-lime-400 animate-pulse" />
               <span className="text-[10px] font-mono tracking-[0.15em] uppercase text-lime-400">
-                k8s_backend · preview
+                k8s_backend · live
               </span>
             </div>
             <h1 className="font-black text-5xl tracking-tighter leading-none">
