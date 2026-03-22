@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: f8s-service
 spec:
-  type: NodePort
+  type: ClusterIP
   selector:
     app: frontend-deployment
   ports:
